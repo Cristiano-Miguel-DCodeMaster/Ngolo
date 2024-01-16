@@ -139,7 +139,7 @@ section{
     }
     #menuop{
        background-color:rgba(0, 0, 0, 0.527);
-    margin-top:-15px;
+       margin-top:-15px;
     }
     .first{
         padding-top: 27%;
@@ -192,6 +192,24 @@ section{
         top: 21px;
         margin-right: 25px;
     }
+    .first{
+        padding-bottom: 5%;
+    }
+    .img{
+        height: 210px;
+        width: 250px;
+        border-radius: 10px;
+    }
+.first .leftText h1{
+    font-size: 115%;
+    font-weight: 900;
+}
+.first .leftText #paragraph{
+    font-size: 80%;
+}
+.first .leftText .buttons{
+    padding-top: 3%;
+}
 }
 @media only screen and (min-width:375px) {
     #menuop li a{
