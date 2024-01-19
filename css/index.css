@@ -8,6 +8,9 @@
 html,.container{
     scroll-behavior: smooth;
 }
+body{
+    background-color: black;
+}
 .container{
     height: 100vh;
     width: 100%;
@@ -127,8 +130,8 @@ section{
 }
 @media only screen and (min-width:240px){
     #logo{
-        width: 120px;
-        height: 50px;
+        width: 110px;
+        height: 40px;
         margin-left: -70px;
     }
     #menu,#Close{
@@ -156,11 +159,18 @@ section{
         padding-top: 5px;
         padding-bottom: 5px;
     }
+    .first .leftText .paragraph{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .leftText #paragraph{
         font-size: 65%;
         font-family: cursive;
         color: aliceblue;
         padding-bottom: 7px;
+        width: 75%;
+        text-align: center;
     }
     .buttons{
         display: flex;
@@ -201,25 +211,143 @@ section{
         border-radius: 10px;
     }
 .first .leftText h1{
-    font-size: 115%;
+    font-size: 117%;
     font-weight: 900;
 }
 .first .leftText #paragraph{
-    font-size: 80%;
+    font-size: 90%;
+    text-align: left;
+    width: 85%;
+    text-align: center;
 }
 .first .leftText .buttons{
     padding-top: 3%;
 }
+.buttons .A,.B{
+    width: 95px;
+    height: 40px;
+}
+.buttons .A:hover{
+    transform: translateY(-10px);
+}
+.buttons .B:hover{
+    transform: translateY(-10px);
+}
+}
+@media only screen and (min-width:360px){
+    .first{
+        padding-top: 1%;
+    }
+    .img{
+        height: 210px;
+        width: 250px;
+        border-radius: 10px;
+    }
+.first .leftText h1{
+    font-size: 147%;
+    font-weight: 900;
+}
+.first .leftText #paragraph{
+    font-size: 108%;
+    text-align: left;
+    width: 85%;
+    text-align: center;
+}
+.first .leftText .buttons{
+    padding-top: 3%;
+}
+.buttons .A,.B{
+    width: 95px;
+    height: 60px;
+    font-size: 95%;
+}
 }
 @media only screen and (min-width:375px) {
+    #logo{
+        margin-left: -120px;
+    }
     #menuop li a{
     font-size: 35px;
     }
     #menu,#Close{
         margin-right: 45px;
     }
+    .img{
+        height: 250px;
+        width: 270px;
+        border-radius: 10px;
+    }
+.first .leftText h1{
+    font-size: 115%;
+    font-weight: 900;
 }
-@media only screen and (min-width:412px) {
+.first .leftText #paragraph{
+    font-size: 80%;
+}
+.buttons .A,.B{
+    width: 115px;
+    height: 50px;
+    font-size: 100%;
+}
+}
+@media only screen and (min-width:375px) and (min-height:640px){
+    .first{
+        padding-top: 16%;
+    }
+    .first .leftText h1{
+        font-size: 145%;
+        font-weight: 900;
+    }
+    .first .leftText #paragraph{
+        font-size: 106%;
+        text-align: left;
+        width: 85%;
+        text-align: center;
+    }
+    .first .leftText .buttons{
+        padding-top: 3%;
+    }
+}
+@media only screen and (min-width:390px){
+    #logo{
+        width: 160px;
+        height: 75px;
+        margin-left: -160px;
+    }
+    #menu,#Close{
+        width: 33px;
+        height: 33px;
+        top: 21px;
+        margin-right: 25px;
+    }
+    .first{
+        padding-top: 10%;
+    }
+    .img{
+        height: 280px;
+        width: 300px;
+        border-radius: 10px;
+    }
+    .first .leftText h1{
+        font-size: 195%;
+        font-weight: 900;
+    }
+    .first .leftText #paragraph{
+        font-size: 132%;
+        width: 85%;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .first .leftText .buttons{
+        padding-top: 8%;
+    }
+    .buttons .A,.B{
+        width: 150px;
+        height: 60px;
+        font-size: 135%;
+    }
+}
+@media only screen and (min-width:412px) and (min-height:660px) {
     #logo{
         width: 194px;
         height: 70px;
@@ -228,6 +356,195 @@ section{
         width:33px;
         height: 33px;
         top: 25px;
+    }
+    .first{
+        padding-top: 29%;
+    }
+    .img{
+        height: 250px;
+        width: 315px;
+        border-radius: 10px;
+    }
+.first .leftText h1{
+    font-size: 155%;
+    font-weight: 900;
+}
+.first .leftText #paragraph{
+    font-size: 155%;
+    text-align: left;
+    width: 85%;
+    text-align: center;
+}
+.buttons .A,.B{
+    width: 150px;
+    height: 60px;
+    font-size: 155%;
+}
+.buttons .A:hover{
+    transform: translateY(-10px);
+}
+.buttons .B:hover{
+    transform: translateY(-10px);
+}
+}
+@media only screen and (min-width:412px) and (min-height:727px) {
+    .first{
+        padding-top: 15%;
+    }
+    .first .leftText h1{
+        font-size: 195%;
+        font-weight: 900;
+    }
+    .first .leftText #paragraph{
+        font-size: 170%;
+        text-align: left;
+        width: 85%;
+        text-align: center;
+    }
+    .first .leftText .buttons{
+        padding-top: 3%;
+    }
+}
+@media only screen and (min-width:412px) and (min-height:732px) {
+    .first{
+        padding-top: 36%;
+    }
+    .first .leftText h1{
+        font-size: 195%;
+        font-weight: 900;
+    }
+    .first .leftText #paragraph{
+        font-size: 105%;
+        text-align: left;
+        width: 85%;
+        text-align: center;
+    }
+    .first .leftText .buttons{
+        padding-top: 3%;
+    }
+    .buttons .A,.B{
+        width: 150px;
+        height: 60px;
+        font-size: 145%;
+    }
+}
+@media only screen and (min-width:412px) and (min-height:915px){
+    .first{
+        padding-top: 15%;
+    }
+    .first .leftText h1{
+        font-size: 195%;
+        font-weight: 900;
+    }
+    .first .leftText #paragraph{
+        font-size: 170%;
+        text-align: left;
+        width: 85%;
+        text-align: center;
+    }
+    .first .leftText .buttons{
+        padding-top: 3%;
+    }
+}
+@media only screen and (min-width:412px) and (min-height:732px) {
+    .first{
+        padding-top: 1%;
+    }
+    .first .leftText h1{
+        font-size: 195%;
+        font-weight: 900;
+    }
+    .first .leftText #paragraph{
+        font-size: 120%;
+        text-align: left;
+        width: 85%;
+        text-align: center;
+    }
+    .first .leftText .buttons{
+        padding-top: 7%;
+    }
+    .buttons .A,.B{
+        width: 150px;
+        height: 60px;
+        font-size: 145%;
+    }
+}
+@media only screen and (min-width:414px){
+    .first{
+        padding-top: 10%;
+    }
+    .img{
+        height: 280px;
+        width: 300px;
+        border-radius: 10px;
+    }
+    .first .leftText h1{
+        font-size: 195%;
+        font-weight: 900;
+    }
+    .first .leftText #paragraph{
+        font-size: 129%;
+        width: 85%;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .first .leftText .buttons{
+        padding-top: 8%;
+    }
+}
+@media only screen and (min-width:425px) and (min-height:524px){
+    #logo{
+        margin-right: 40px;
+    }
+    #menu,#Close{
+        margin-left:80px;
+    }
+    .first{
+        padding-top: 25%;
+    }
+    .img{
+        height: 200px;
+        width: 275px;
+        border-radius: 10px;
+    }
+    .first .leftText h1{
+        font-size: 125%;
+        font-weight: 900;
+    }
+    .first .leftText #paragraph{
+        font-size: 105%;
+        text-align: left;
+        width: 85%;
+        text-align: center;
+    }
+    .first .leftText .buttons{
+        padding-top: 1%;
+    }
+}
+@media only screen and (min-width:430px){
+    #logo{
+        margin-right: -10px;
+    }
+    .first{
+        padding-top: 5%;
+    }
+    .img{
+        height: 350px;
+        width: 345px;
+        border-radius: 10px;
+    }
+    .first .leftText h1{
+        font-size: 195%;
+        font-weight: 900;
+    }
+    .first .leftText #paragraph{
+        font-size: 135%;
+        text-align: left;
+        width: 85%;
+        text-align: center;
+    }
+    .first .leftText .buttons{
+        padding-top: 6%;
     }
 }
 @media only screen and (min-width:600px) {
@@ -238,7 +555,7 @@ section{
     #menu,#Close{
         width:45px;
         height: 45px;
-        margin-right: 14px;
+        margin-right: 150px;
     }
 }
 @media only screen and (min-width:1024px) {
