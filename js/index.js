@@ -84,4 +84,3 @@ function darkmode() {
     whitemode.style.marginLeft = "47%"
 }
 }
-
