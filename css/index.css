@@ -195,9 +195,12 @@ section{
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        padding-top: 10%;
     }
     #Sobre h2{
         padding-bottom: 12px;
+        font-family: cursive;
+        font-size: 10px;
     }
     .Carrosel{
         display: flex;
@@ -205,10 +208,48 @@ section{
         align-items: center;
         flex-direction: row;
         gap: 50px;
-        border: 1px solid red;
+        width: 90%;
         overflow: hidden;
-        width: 150px;
     }
+    .Carrosel .card{
+        border:1px solid gold;
+        padding: 2%;
+        border-radius: 12px;
+        transform: translateX(262%);
+        animation: turn 25s ease-in-out infinite;
+    }
+    @keyframes turn {
+        0%{transform: translateX(262%);}
+        5%{transform: translateX(262%);}
+        10%{transform: translateX(262%);}
+        15%{transform: translateX(262%);}
+        20%{transform: translateX(134%);}
+        25%{transform: translateX(134%);}
+        30%{transform: translateX(134%);}
+        35%{transform: translateX(134%);}
+        40%{transform: translateX(1%);}
+        45%{transform: translateX(1%);}
+        50%{transform: translateX(1%);}
+        55%{transform: translateX(1%);}
+        60%{transform: translateX(-130%);}
+        65%{transform: translateX(-130%);}
+        70%{transform: translateX(-130%);}
+        75%{transform: translateX(-130%);}
+        80%{transform: translateX(-255%);}
+        85%{transform: translateX(-255%);}
+        90%{transform: translateX(-255%);}
+        95%{transform: translateX(-255%);}
+        100%{transform: translateX(262%);}
+    }
+    .Carrosel .card span{
+        color: gold;
+    }
+    .Carrosel .card p{
+        width: 125px;
+        padding: 15px;
+    }
+
+
 }
 @media only screen and (min-width:320px){
     #logo{
