@@ -195,7 +195,7 @@ section{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding-top: 10%;
+        padding-top: 17%;
     }
     #Sobre h2{
         padding-bottom: 12px;
@@ -215,41 +215,49 @@ section{
         border:1px solid gold;
         padding: 2%;
         border-radius: 12px;
-        transform: translateX(262%);
-        animation: turn 25s ease-in-out infinite;
+        transform: translateX(252%);
+        /*animation: turn 25s ease-in-out infinite;*/
     }
-    @keyframes turn {
-        0%{transform: translateX(262%);}
-        5%{transform: translateX(262%);}
-        10%{transform: translateX(262%);}
-        15%{transform: translateX(262%);}
-        20%{transform: translateX(134%);}
-        25%{transform: translateX(134%);}
-        30%{transform: translateX(134%);}
-        35%{transform: translateX(134%);}
+    /*@keyframes turn {
+        0%{transform: translateX(252%);}
+        5%{transform: translateX(252%);}
+        10%{transform: translateX(252%);}
+        15%{transform: translateX(252%);}
+        20%{transform: translateX(125%);}
+        25%{transform: translateX(125%);}
+        30%{transform: translateX(125%);}
+        35%{transform: translateX(125%);}
         40%{transform: translateX(1%);}
         45%{transform: translateX(1%);}
         50%{transform: translateX(1%);}
         55%{transform: translateX(1%);}
-        60%{transform: translateX(-130%);}
-        65%{transform: translateX(-130%);}
-        70%{transform: translateX(-130%);}
-        75%{transform: translateX(-130%);}
-        80%{transform: translateX(-255%);}
-        85%{transform: translateX(-255%);}
-        90%{transform: translateX(-255%);}
-        95%{transform: translateX(-255%);}
-        100%{transform: translateX(262%);}
-    }
+        60%{transform: translateX(-125%);}
+        65%{transform: translateX(-125%);}
+        70%{transform: translateX(-125%);}
+        75%{transform: translateX(-125%);}
+        80%{transform: translateX(-250%);}
+        85%{transform: translateX(-250%);}
+        90%{transform: translateX(-250%);}
+        95%{transform: translateX(-250%);}
+        100%{transform: translateX(252%);}
+    }*/
     .Carrosel .card span{
         color: gold;
     }
     .Carrosel .card p{
-        width: 125px;
+        width: 160px;
         padding: 15px;
+        font-weight: 800;
+        font-family: cursive;
+        font-size: 80%;
     }
-
-
+    .Carrosel button#dollar{
+        width: 80px;
+        height: 30px;
+        background-color: gold;
+        border-radius: 5px;
+        border:none
+        }
 }
 @media only screen and (min-width:320px){
     #logo{
@@ -295,6 +303,48 @@ section{
 .buttons .B:hover{
     transform: translateY(-10px);
     cursor: pointer;
+}
+#Sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1%;
+}
+#Sobre h2{
+    padding-bottom: 12px;
+    font-family: cursive;
+    font-size: 25px;
+}
+#h2p{
+    font-size: 14px;
+    font-family: cursive;
+}
+.Carrosel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    width: 90%;
+    overflow: hidden;
+    padding-top: 20px;
+}
+.Carrosel .card{
+    border:1px solid gold;
+    padding: 2%;
+    border-radius: 12px;
+    transform: translateX(252%);
+    /*animation: turn 25s ease-in-out infinite;*/
+}
+.Carrosel .card span{
+    color: gold;
+}
+.Carrosel .card p{
+    width: 160px;
+    padding: 15px;
+    font-weight: 600;
+    font-family: cursive;
 }
 }
 @media only screen and (min-width:360px){
@@ -779,6 +829,84 @@ section{
     }
     .first .leftText .buttons{
         padding-top: 3%;
+    }
+    #Sobre{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 10%;
+    }
+    #Sobre h2{
+        padding-bottom: 12px;
+        font-family: cursive;
+        font-size: 45px;
+        margin-top: -15%;
+    }
+    #h2p{
+        font-size: 23px;
+        font-family: cursive;
+    }
+    .Carrosel{
+        flex-direction: row;
+        gap: 50px;
+        width: 90%;
+        overflow: hidden;
+        padding-top: 20px;
+    }
+    .Carrosel .card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border:1px solid gold;
+        padding: 9%;
+        border-radius: 12px;
+        transform: translateX(230%);
+        animation: turn 25s ease-in-out infinite;
+    }
+    @keyframes turn {
+        0%{transform: translateX(230%);}
+        5%{transform: translateX(230%);}
+        10%{transform: translateX(230%);}
+        15%{transform: translateX(230%);}
+        20%{transform: translateX(115%);}
+        25%{transform: translateX(115%);}
+        30%{transform: translateX(115%);}
+        35%{transform: translateX(115%);}
+        40%{transform: translateX(0%);}
+        45%{transform: translateX(0%);}
+        50%{transform: translateX(0%);}
+        55%{transform: translateX(0%);}
+        60%{transform: translateX(-115%);}
+        65%{transform: translateX(-115%);}
+        70%{transform: translateX(-115%);}
+        75%{transform: translateX(-115%);}
+        80%{transform: translateX(-230%);}
+        85%{transform: translateX(-230%);}
+        90%{transform: translateX(-230%);}
+        95%{transform: translateX(-230%);}
+        100%{transform: translateX(230%);}
+    }
+    .card #h3p{
+        font-size: 39px;
+        width: 115%;
+    }
+    .Carrosel .card span{
+        color: gold;
+    }
+    .Carrosel .card p{
+        width: 240px;
+        padding: 15px;
+        font-weight: normal;
+        font-family: cursive;
+        font-size: 190%;
+    }
+    .Carrosel button#dollar{
+    width: 60%;
+    height: 70px;
+    border-radius: 8px;
+    font-size: 190%;
     }
 }
 @media only screen and (min-width:412px) and (min-height:732px) {
