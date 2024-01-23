@@ -78,7 +78,7 @@ position: relative;
     position: relative;
     top: 12px;
     font-size: 28px;
-    font-family:cursive;
+    font-family:Arial, Helvetica, sans-serif;
     font-weight: 550;
 }
 #Sub{
@@ -95,6 +95,7 @@ position: relative;
     margin-right: 10px;
     width:fit-content;
     display: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #Sub:hover{
     background-color: gold;
@@ -120,11 +121,11 @@ section{
 .leftText h1{
     color: blanchedalmond;
     font-size: 90%;
-    font-family: cursive;
+    font-family:Arial, Helvetica, sans-serif;
 }
 .leftText #paragraph{
     font-size: 80%;
-    font-family: cursive;
+    font-family:Arial, Helvetica, sans-serif;
     color: aliceblue;
     width: 75%;
 }
@@ -149,13 +150,13 @@ section{
     }
     .img{
         height: 110px;
-        width: 150px;
+        width: 160px;
         border-radius: 3px;
     }
     .leftText h1{
         color: gold;
-        font-size: 75%;
-        font-family: cursive;
+        font-size: 106%;
+        font-family:Arial, Helvetica, sans-serif;
         padding-top: 5px;
         padding-bottom: 5px;
     }
@@ -165,12 +166,12 @@ section{
         align-items: center;
     }
     .leftText #paragraph{
-        font-size: 65%;
-        font-family: cursive;
+        font-size: 79%;
         color: aliceblue;
         padding-bottom: 7px;
         width: 75%;
         text-align: center;
+        font-family:Arial, Helvetica, sans-serif;
     }
     .buttons{
         display: flex;
@@ -180,9 +181,8 @@ section{
     }
     .buttons .A,.B{
         width: 75px;
-        height: 40px;
+        height: 30px;
         border: none;
-        font-family: cursive;
         font-weight: 600;
         border-radius: 5px;
     }
@@ -198,7 +198,7 @@ section{
     }
     #Sobre h2{
         padding-bottom: 12px;
-        font-family: cursive;
+        font-family:Arial, Helvetica, sans-serif;
         font-size: 10px;
     }
     .Carrosel{
@@ -215,9 +215,9 @@ section{
         padding: 2%;
         border-radius: 12px;
         transform: translateX(252%);
-        /*animation: turn 25s ease-in-out infinite;*/
+        animation: turn 25s ease-in-out infinite;
     }
-    /*@keyframes turn {
+    @keyframes turn {
         0%{transform: translateX(252%);}
         5%{transform: translateX(252%);}
         10%{transform: translateX(252%);}
@@ -239,7 +239,7 @@ section{
         90%{transform: translateX(-250%);}
         95%{transform: translateX(-250%);}
         100%{transform: translateX(252%);}
-    }*/
+    }
     .Carrosel .card span{
         color: gold;
     }
@@ -247,7 +247,7 @@ section{
         width: 160px;
         padding: 15px;
         font-weight: 800;
-        font-family: cursive;
+        font-family:Arial, Helvetica, sans-serif;
         font-size: 80%;
     }
     .Carrosel button#dollar{
@@ -255,7 +255,7 @@ section{
         height: 30px;
         background-color: gold;
         border-radius: 5px;
-        border:none
+        border:none;
         }
 }
 @media only screen and (min-width:320px){
@@ -312,12 +312,12 @@ section{
 }
 #Sobre h2{
     padding-bottom: 12px;
-    font-family: cursive;
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 25px;
 }
 #h2p{
     font-size: 14px;
-    font-family: cursive;
+    font-family:Arial, Helvetica, sans-serif;
 }
 .Carrosel{
     display: flex;
@@ -334,7 +334,7 @@ section{
     padding: 2%;
     border-radius: 12px;
     transform: translateX(252%);
-    /*animation: turn 25s ease-in-out infinite;*/
+    animation: turn 25s ease-in-out infinite;
 }
 .Carrosel .card span{
     color: gold;
@@ -343,7 +343,7 @@ section{
     width: 160px;
     padding: 15px;
     font-weight: 600;
-    font-family: cursive;
+    font-family:Arial, Helvetica, sans-serif;
 }
 }
 @media only screen and (min-width:360px){
@@ -838,13 +838,13 @@ section{
     }
     #Sobre h2{
         padding-bottom: 12px;
-        font-family: cursive;
+        font-family:Arial, Helvetica, sans-serif;
         font-size: 45px;
         margin-top: -15%;
     }
     #h2p{
         font-size: 23px;
-        font-family: cursive;
+        font-family:Arial, Helvetica, sans-serif;
     }
     .Carrosel{
         flex-direction: row;
@@ -898,7 +898,7 @@ section{
         width: 240px;
         padding: 15px;
         font-weight: normal;
-        font-family: cursive;
+        font-family:Arial, Helvetica, sans-serif;
         font-size: 190%;
     }
     .Carrosel button#dollar{
