@@ -5,6 +5,10 @@
   <meta name="viewport" 
   content="width=device-width,
   initial-scale=1.0"/>
+  <meta name="description" 
+  content="Lorem ipsum dolor sit amet 
+  consectetur adipisicing elit.
+  Architecto officiis ex veniam...">
   <meta name="theme-color" content="black">
   <meta name="author" content="DCode Master"/>
   <link rel="shortcut icon" 
@@ -26,6 +30,7 @@
     alt="Logo">
   </a>
   <button
+  name="menu"
   class="navbar-toggler"
   type="button"
   data-bs-toggle="collapse"
@@ -147,6 +152,7 @@ pb-5 pt-5 serv" id="servicos">
       <div class="card-title">
         <img
         width="100"
+        height="100"
         src="images/line-chart-line.svg" 
         alt="icon">
       <div class="card-body">
@@ -155,9 +161,11 @@ pb-5 pt-5 serv" id="servicos">
             Gestão de Redes Sociais
           </p>
           <p>
-            Lorem ipsum dolor sit amet 
-            consectetur adipisicing elit.
-            Architecto officiis ex veniam...
+            Gerencie suas contas de redes sociais
+            de forma eficiente e profissional,
+            criando uma presença online impactante
+            e estabelecendo a visibilidade da sua 
+            empresa.
           </p>
           <a 
               class="btn btn-warning"
@@ -175,6 +183,7 @@ pb-5 pt-5 serv" id="servicos">
         <div class="card-title">
           <img
           width="100"
+          height="100"
           src="images/award-fill.svg" 
           alt="icon">
         <div class="card-body">
@@ -183,13 +192,16 @@ pb-5 pt-5 serv" id="servicos">
               Marketing Mix e Visibilidade
             </p>
             <p>
-              Lorem ipsum dolor sit amet 
-              consectetur adipisicing elit.
-              Architecto officiis ex veniam...
+              Otimize o seu Marketing Mix, 
+              direcionando suas estratégias
+              de promoção, preço, produto e
+              distribuição, aumentando a 
+              visibilidade e a eficácia das 
+              suas campanhas.
             </p>
             <a 
               class="btn btn-warning"
-              hrtmef="#">
+              href="#">
                Ler mais
               </a>
           </div>
@@ -203,6 +215,7 @@ pb-5 pt-5 serv" id="servicos">
           <div class="card-title">
           <img
           width="100"
+          height="100"
           src="images/robot-2-line.svg" 
           alt="icon">
           <div class="card-body">
@@ -211,9 +224,11 @@ pb-5 pt-5 serv" id="servicos">
                 Integração de IA
               </p>
               <p>
-                Lorem ipsum dolor sit amet 
-                consectetur adipisicing elit.
-                Architecto officiis ex veniam...
+                Explore as posssibilidades da 
+                Inteligência Artificial no 
+                Marketing Digital, implementando
+                chatbots, análise preditiva e 
+                personalização avançada
               </p>
               <a 
               class="btn btn-warning"
@@ -231,6 +246,7 @@ pb-5 pt-5 serv" id="servicos">
             <div class="card-title">
             <img
             width="100"
+            height="100"
             src="images/verified-badge-line.svg" 
             alt="icon">
             <div class="card-body">
@@ -239,9 +255,13 @@ pb-5 pt-5 serv" id="servicos">
                 Certificação de Qualidade
                 </p>
                 <p>
-                  Lorem ipsum dolor sit amet 
-                  consectetur adipisicing elit.
-                  Architecto officiis ex veniam...
+                  Garanta a qualidade das suas 
+                  estratégias de Markting 
+                  Digital, obtendo certificações
+                  que atestam o seu 
+                  profissionalismo, expertise e 
+                  adesão às melhores prácticas do
+                  setor.
                 </p>
                 <a 
                 class="btn btn-warning"
@@ -273,6 +293,7 @@ text-center pb-5 pt-5" id="comentarios">
         <div class="card-title">
           <img
           width="100"
+          height="100"
           src="images/user-heart-fill.svg"
           alt="user-image">
         </div>
@@ -311,6 +332,7 @@ text-center pb-5 pt-5" id="comentarios">
           <div class="card-title">
             <img
             width="100"
+            height="100"
             src="images/open-arm-fill.svg"
             alt="user-image">
           </div>
@@ -350,6 +372,7 @@ text-center pb-5 pt-5" id="comentarios">
           <div class="card-title">
             <img
             width="100"
+            height="100"
             src="images/spy-fill.svg"
             alt="user-image">
           </div>
@@ -391,22 +414,28 @@ text-center pb-5 pt-5" id="comentarios">
     Adicionar Comentário
   </h4>
   <div class="container">
-    <img
-    width="63"
-    height="63" 
-    class="chooseicon"
-    src="images/medal-2-fill.svg"
-    alt="Icon">
+    <figure>
+      <img
+      id="seuicon"
+      width="63"
+      height="63"
+      class="chooseicon"
+      src="images/medal-2-fill.svg"
+      alt="Icon">
+      <figcaption class="text-light">
+        Seu icon
+      </figcaption>
+    </figure>
 
     <div class="row pt-3">
       <div class="col">
         <figure>
           <img
+          id="Estrela"
           width="63"
           height="63"
           src="images/medal-2-fill.svg"
           alt="firsticon"
-          onclick="changePicture()"
           >
           <figcaption class="text-light">
           Estrela
@@ -417,11 +446,11 @@ text-center pb-5 pt-5" id="comentarios">
       <div class="col">
         <figure>
           <img
+          id="Amante"
           width="63"
           height="63"
           src="images/user-heart-fill.svg"
           alt="secondicon"
-          onclick="changePicture()"
           >
           <figcaption class="text-light">
             Amante
@@ -432,14 +461,29 @@ text-center pb-5 pt-5" id="comentarios">
       <div class="col">
         <figure>
           <img
+          id="Anonimo"
           width="63"
           height="63"
           src="images/spy-fill.svg"
           alt="thirdicon"
-          onclick="changePicture()"
           >
           <figcaption class="text-light">
             Anónimo
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="col">
+        <figure>
+          <img
+          id="decepcionado"
+          width="63"
+          height="63"
+          src="images/emotion-sad-line.svg"
+          alt="thirdicon"
+          >
+          <figcaption class="text-light">
+            Decepcionado
           </figcaption>
         </figure>
       </div>
@@ -453,6 +497,7 @@ text-center pb-5 pt-5" id="comentarios">
      Primeiro Nome
     </label>
     <input
+    id="inputName"
     placeholder="Primeiro Nome"
     class="text-center p-2"
     type="text"
@@ -465,6 +510,7 @@ text-center pb-5 pt-5" id="comentarios">
     Segundo Nome
     </label>
     <input
+    id="inputLname"
     placeholder="Último Nome"
     class="text-center p-2"
     type="text"
@@ -482,16 +528,20 @@ text-center pb-5 pt-5" id="comentarios">
     type="text"
     name="occupation"
     id="occupation">
+
+<br>
 <br>
 <textarea
-class="" 
+placeholder="Digite Aqui o seu Comentário e 
+teremos todo o gosto de lê-lo e melhorar os nossos
+Serviços."
+class="form-control text-center"
 name="comment" 
 id="comment" 
 cols="30"
 rows="10">
 </textarea>
     <br>
-
     <button
     class="btn btn-warning mt-3"
     type="submit">
@@ -504,7 +554,7 @@ rows="10">
 
 <footer class="bg-black text-center p-1">
   <div class="container">
-<p class="lead text-light">
+<p class="text-light">
   Copyright &copy; NGOLO Sales fih 2024
 </p>
 <p class="text-light">
