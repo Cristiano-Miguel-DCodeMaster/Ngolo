@@ -54,13 +54,10 @@ height: 65px;
 #comentarios::before{
     display: block;
     content: '';
-    height: 65px;
+    height: 52px;
     }
     .addcomment{
         margin-bottom: 10px;
-    }
-    #addcomment{
-        background-color: rgb(43, 35, 35);
     }
     #addcomment::before{
         display: block;
@@ -72,13 +69,21 @@ height: 65px;
         border-radius: 100%;
         padding: 1%;
     }
-@media screen and (min-width:425px) and 
-(height:565px){
-    .parafather{
-        height: 100px;
-        border: 2px solid red;
+    #Estrela,#Amante,#Anonimo,#decepcionado{
+        cursor: pointer;
     }
-}
+    ::placeholder{
+        font-weight: bold;
+    }
+    #pbx1,#pbx2,#pbx3,#pbx4,#pbx5,#pbx6,#pbx7{
+        font-size: 40pt;
+        margin-top: -50px;
+    }
+    #contatos::before{
+        display: block;
+        content: '';
+        height: 72px;
+        }
 @media only screen and (max-width:575px){
     .serv{
         padding-top: 50px;
@@ -116,6 +121,13 @@ height: 65px;
     80%{transform: translateY(-100px);}
     90%{transform: translateY(-100px);}
     100%{transform: translateY(0px);}
+}
+.left{
+    width: 45%;
+}
+.right{
+    width: 50%;
+    padding-left: 7%;
 }
 }
 @media only screen and (min-width:768px){
