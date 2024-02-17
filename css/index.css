@@ -82,7 +82,7 @@ height: 65px;
     #contatos::before{
         display: block;
         content: '';
-        height: 72px;
+        height: 50px;
         }
 @media only screen and (max-width:575px){
     .serv{
