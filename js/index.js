@@ -135,3 +135,10 @@ BtnShow7.addEventListener('click',function (){
     BtnShow7.style.display = "none";
 });
 
+/*Light Mode*/
+const LMode=document.getElementById('LMode');
+
+LMode.addEventListener('click',function(){
+const home = document.getElementById('home');
+alert(home.style.backgroundColor);
+});
